@@ -16,7 +16,7 @@
                     ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
                 A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
                 </p>
-              
+              <a href="PantallaRegsitro.aspx" class="btn btn-primary">Registro de préstamos</a>
             </section>
             <section class="col-md-4" aria-labelledby="EdiciónTitle">
                 <h2 id="EdiciónTitle">Historial de registros</h2>

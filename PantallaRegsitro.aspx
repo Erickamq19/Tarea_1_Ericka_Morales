@@ -16,7 +16,7 @@
 
         <div class="form-group">
             <label for="txtResponsable">Nombre del responsable del registro</label>
-            <asp:TextBox ID="txtResponsable" runat="server" CssClass="form-control"></asp:TextBox> 
+            <asp:TextBox ID="txtResponsable" runat="server" CssClass="form-control"></asp:TextBox>
 
         </div>
 
@@ -26,6 +26,12 @@
 
         </div>
 
+        <div class="form-group">
+            <label for="txtIdentificador">Código de identificación</label>
+            <asp:TextBox ID="txtIdentificador" runat="server" CssClass="form-control"></asp:TextBox>
+
+        </div>
+        
         <div class="form-group">
             <label for="txtFecha_salida">Ingrese la fecha de salida</label>
             <asp:TextBox ID="txtFecha_salida" runat="server" TextMode="Date" CssClass="form-control"></asp:TextBox>
@@ -56,7 +62,42 @@
 
         </div>
 
+        <br />
+        <asp:Button ID="btnRegistro" runat="server" Text="Registrar préstamo" CssClass="btn btn-primary" OnClick="btnRegistrar_Click" UseSubmitBehavior="false"/>
+        <br />
+        <asp:Label ID="MensajeConfirmacion" runat="server"></asp:Label>
+        <br />
+
 
 </main>
+
+
+    <script>
+        $(document).ready(function(){ 
+
+            var responsable = $('#<%= txtResponsable.ClientID %>');
+            var equipo = $('#<%= txtEquipo.ClientID %>');
+            var identificador = $('#<%= txtIdentificador.ClientID %>');
+            var fechasalida = $('#<%= txtFecha_salida.ClientID %>');
+            var fecharegreso = $('#<%= txtFecha_regreso.ClientID %>');
+            var solicitante = $('#<%= txtNombreSolicitante.ClientID %>');
+            var departamento = $('#<%= txtDepartamento.ClientID %>');
+
+            $('#<%= btnRegistro.ClientID %>').click(function (e) {
+
+                if (responsable.val().trim() === '' || equipo.val().trim() === '' || identificador.val().trim() === '' || fechasalida.val().trim() === '' ||
+                    fecharegreso.val().trim() === '' || solicitante.val().trim() === '' || departamento.val().trim() === '') {
+
+                    alert('Debe completar todos los campos correspondientes.');
+                    e.preventDefault();
+                    return false;
+
+
+                };
+
+            });
+        });
+
+    </script>
 
 </asp:Content>

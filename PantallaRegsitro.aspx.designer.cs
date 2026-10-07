@@ -33,6 +33,15 @@ namespace Tarea_1_Ericka_Morales
         protected global::System.Web.UI.WebControls.TextBox txtEquipo;
 
         /// <summary>
+        /// Control txtIdentificador.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtIdentificador;
+
+        /// <summary>
         /// Control txtFecha_salida.
         /// </summary>
         /// <remarks>
