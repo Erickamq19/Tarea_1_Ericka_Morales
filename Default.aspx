@@ -13,15 +13,14 @@
             <section class="col-md-4" aria-labelledby="RegistroTitle">
                 <h2 id="RegistroTitle">Registro de préstamos</h2>
                 <p>
-                    ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-                A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
+                    Sección para realizar el registro de nuevos préstamos.
                 </p>
               <a href="PantallaRegsitro.aspx" class="btn btn-primary">Registro de préstamos</a>
             </section>
             <section class="col-md-4" aria-labelledby="EdiciónTitle">
                 <h2 id="EdiciónTitle">Historial de registros</h2>
                 <p>
-                    NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
+                    Consulte el historial de los préstamos realizados.
                 </p>
                 <p>
                     <a href="HistorialPrestamos.aspx" class="btn btn-primary">Ver historial de registros</a>
@@ -30,10 +29,10 @@
             <section class="col-md-4" aria-labelledby="EquiposInventarioTitle">
                 <h2 id="EquiposInventarioTitle">Equipos en inventario</h2>
                 <p>
-                    You can easily find a web hosting company that offers the right mix of features and price for your applications.
+                    Gestión de los equipos en inventario y su estado. 
                 </p>
                 <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                    <a href="ControlInventarrio.aspx" class="btn btn-primary">Gestionar inventario</a>
                 </p>
             </section>
         </div>
