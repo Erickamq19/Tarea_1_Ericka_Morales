@@ -17,9 +17,6 @@ namespace Tarea_1_Ericka_Morales
             {
 
                 Session["Prestamos"] = new List<prestamo_equipo>();
-
-
-
             }
 
         }
