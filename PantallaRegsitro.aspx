@@ -7,10 +7,11 @@
         <section class="col-md-4" aria-labelledby="RegistroTitle">
             <h1 id="RegistroTitle">Registro de préstamos</h1>
             <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
+                Para realizar un registro, por favor llenar la información que se solicita en el 
+                siguiente formulario, cuando la información se encuentre completa, oprimir el botón registrar préstamo
+                que se encuentra ubicado debajo del formulario. 
             </p>
-          <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+         
         </section>
     </div>
 
